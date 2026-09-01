@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Manoj Saini — Full Stack Developer specializing in the MERN stack." />
+  <title>Manoj Saini | Full Stack Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .contact-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:64px;align-items:start}.contact-form{background:rgba(255,255,255,.72);border:1px solid #c8e6fa;padding:23px 24px;box-shadow:9px 10px 0 rgba(172,220,250,.4)}.contact-form label{display:block;font:500 .63rem var(--mono);letter-spacing:.04em;text-transform:uppercase;color:#55718a;margin-bottom:15px}.contact-form input,.contact-form textarea{display:block;width:100%;border:0;border-bottom:1px solid #b7d8ee;background:transparent;padding:8px 0 9px;margin-top:3px;color:var(--ink);font:500 .79rem var(--font);outline:none;resize:vertical;transition:.2s}.contact-form input:focus,.contact-form textarea:focus{border-color:var(--blue)}.contact-form input::placeholder,.contact-form textarea::placeholder{color:#9db2c4}.contact-form .button{border:0;cursor:pointer;margin-top:4px;font-family:var(--font)}.form-status{height:12px;margin:10px 0 0;color:#138354;font-size:.7rem;font-weight:700}.contact-bottom{margin-top:76px}@media(max-width:760px){.contact-grid{grid-template-columns:1fr;gap:28px}}
+  </style>
+</head>
+<body>
+  <div class="page-loader"><div class="loader-mark">MS Resume<span>.</span></div></div>
+  <div class="noise"></div>
+  <header class="nav-wrap" id="top">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="logo" href="#top" aria-label="Manoj Saini home">M<span>S</span></a>
+      <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false"><i></i><i></i></button>
+      <div class="nav-links">
+        <a class="active" href="#top">Home</a><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact">Contact</a>
+      </div>
+      <a href="#contact" class="nav-cta">Let's talk <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow hero-reveal"><span></span> Available for opportunities</p>
+        <h1 id="hero-title" class="hero-title"><span>Building the web</span><span>with <em>clarity</em> &amp;</span><span>curiosity.</span></h1>
+        <p class="hero-intro hero-reveal">I’m Manoj Saini, an aspiring Full Stack Developer crafting responsive, thoughtful digital experiences with the MERN stack.</p>
+        <div class="hero-actions hero-reveal"><a href="#projects" class="button primary">Explore projects <b>↗</b></a><a href="#about" class="text-link">More about me <span>↓</span></a></div>
+      </div>
+      <div class="hero-visual hero-reveal">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="profile-glow"></div>
+        <figure class="portrait-frame"><img src="assets/manoj-saini.png" alt="Portrait of Manoj Saini" /></figure>
+        <div class="mini-card location"><span class="pulse"></span><div><small>Based in</small><strong>Hisar, Haryana</strong></div></div>
+        <div class="mini-card role"><span class="bracket">{ }</span><div><small>Focus</small><strong>MERN Stack</strong></div></div>
+      </div>
+      <div class="hero-foot"><span>Scroll to explore</span><div class="scroll-line"></div><span class="mono">01 — 05</span></div>
+    </section>
+
+    <section id="about" class="section about container">
+      <div class="section-label reveal"><span>01</span> About me</div>
+      <div class="about-grid">
+        <h2 class="reveal">A developer in the <em>making,</em> with a habit of learning by building.</h2>
+        <div class="about-copy reveal"><p>I’m a Full Stack Developer focused on creating polished, responsive web interfaces and steadily expanding across the frontend and backend. I enjoy turning a blank screen into an experience that feels simple, useful, and considered.</p><p>Currently seeking an entry-level opportunity where I can contribute to meaningful projects, grow alongside an experienced team, and keep sharpening my craft.</p><a href="#contact" class="text-link">Start a conversation <span>↗</span></a></div>
+      </div>
+      <div class="stats reveal"><div><strong>01<sup>+</sup></strong><span>Career focus</span></div><div><strong>MERN</strong><span>Primary stack</span></div><div><strong>2025</strong><span>Graduate</span></div><div><strong>∞</strong><span>Curiosity to learn</span></div></div>
+    </section>
+
+    <section id="skills" class="section skills-section">
+      <div class="container"><div class="section-label reveal"><span>02</span> Expertise</div><div class="skills-head"><h2 class="reveal">Tools I use to bring <em>ideas</em> to life.</h2><p class="reveal">A practical foundation across modern frontend development, backend services, and collaborative workflows.</p></div>
+      <div class="skills-grid">
+        <article class="skill-card reveal"><span class="skill-num">01</span><div class="skill-icon html">&lt;/&gt;</div><h3>Frontend</h3><p>Building intuitive and responsive interfaces that put people first.</p><ul><li>HTML5 &amp; CSS3</li><li>JavaScript</li><li>React.js</li><li>Tailwind CSS</li></ul></article>
+        <article class="skill-card reveal"><span class="skill-num">02</span><div class="skill-icon server">⌘</div><h3>Backend</h3><p>Developing reliable application logic and connected services.</p><ul><li>Node.js</li><li>Express.js</li><li>REST APIs</li><li>Authentication</li></ul></article>
+        <article class="skill-card reveal"><span class="skill-num">03</span><div class="skill-icon database">▤</div><h3>Data &amp; tools</h3><p>Working with data and versioned workflows to ship better work.</p><ul><li>MongoDB</li><li>SQL</li><li>Git &amp; GitHub</li><li>API integration</li></ul></article>
+      </div></div>
+    </section>
+
+    <section id="projects" class="section work container">
+      <div class="section-label reveal"><span>03</span> Projects</div><div class="work-head"><h2 class="reveal">What I’m excited <em>to build.</em></h2><p class="reveal">A snapshot of the kinds of products and problems I’m prepared to take on.</p></div>
+      <div class="projects">
+        <article class="project project-large reveal"><div class="project-art art-one"><span class="window"><i></i><i></i><i></i><b>Welcome back, Manoj</b><small>Crafting experiences that work.</small><em>Explore&nbsp; →</em></span></div><div class="project-meta"><span>01 / Full stack</span><span>React · Node · MongoDB</span></div><div class="project-title"><h3>Web applications</h3><a href="#contact" aria-label="Discuss web applications">↗</a></div><p>End-to-end experiences with considered interfaces, meaningful features, and scalable foundations.</p></article>
+        <article class="project reveal"><div class="project-art art-two"><div class="phone"><span>09:41</span><b>Today’s tasks</b><i></i><i></i><i></i></div></div><div class="project-meta"><span>02 / Interface</span><span>React · JavaScript</span></div><div class="project-title"><h3>Responsive UI</h3><a href="#contact" aria-label="Discuss user interfaces">↗</a></div><p>Clear, accessible interface systems designed to feel great on every screen.</p></article>
+        <article class="project reveal"><div class="project-art art-three"><div class="code-lines"><i></i><i></i><i></i><i></i><i></i><i></i></div></div><div class="project-meta"><span>03 / Backend</span><span>Node · Express · APIs</span></div><div class="project-title"><h3>Connected services</h3><a href="#contact" aria-label="Discuss backend services">↗</a></div><p>APIs, data flows, and CRUD functionality built for dependable products.</p></article>
+      </div>
+    </section>
+
+    <section class="section journey"><div class="container"><div class="section-label reveal"><span>04</span> Journey</div><div class="journey-grid"><h2 class="reveal">Always moving <em>forward.</em></h2><div class="timeline reveal"><article><span>2023 — 2025</span><h3>Bachelor of Arts</h3><p>Guru Jambheshwar University of Science &amp; Technology, Hisar</p></article><article><span>Now</span><h3>Building &amp; learning</h3><p>Deepening my MERN stack skills through hands-on development and continuous learning.</p></article><article><span>Next</span><h3>Full Stack Developer</h3><p>Ready to contribute to an ambitious team and real-world web applications.</p></article></div></div></div></section>
+
+    <section id="contact" class="contact"><div class="container contact-inner reveal"><p class="eyebrow"><span></span> Have a project or opportunity?</p><div class="contact-grid"><div><h2>Let’s build something<br /><em>meaningful together.</em></h2><a class="email-link" href="mailto:manojsaini12023@gmail.com">manojsaini12023@gmail.com <span>↗</span></a></div><form class="contact-form" novalidate><label>Your name<input type="text" name="name" placeholder="How should I call you?" required /></label><label>Email address<input type="email" name="email" placeholder="you@example.com" required /></label><label>Tell me a little more<textarea name="message" rows="3" placeholder="A project, role, or idea..." required></textarea></label><button class="button primary" type="submit">Send message <b>↗</b></button><p class="form-status" role="status"></p></form></div><div class="contact-bottom"><span>Hisar, Haryana, India</span><a href="tel:+918307336310">+91 8307336310</a><span class="mono">© <span id="year"></span> Manoj Saini</span></div></div></section>
+  </main>
+  <button class="back-top" aria-label="Back to top">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>

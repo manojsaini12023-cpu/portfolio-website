@@ -604,6 +604,16 @@ h2 em {
     transition: .35s
 }
 
+.project-art .project-link {
+    position: absolute;
+    inset: 0;
+    z-index: 3;
+    display: block;
+    background: transparent;
+    text-indent: -9999px;
+    cursor: pointer;
+}
+
 /* Project screenshot mockup styles */
 .project-art .screenshot {
     width: 100%;

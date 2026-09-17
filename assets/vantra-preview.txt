@@ -1,0 +1,7 @@
+This is a placeholder file.
+
+Please replace this file with the actual Vantra preview image named `vantra-preview.png` in this folder: 
+
+assets/vantra-preview.png
+
+You can upload the image from your machine into the assets folder, or tell me to fetch the attached image and I'll add it for you.
